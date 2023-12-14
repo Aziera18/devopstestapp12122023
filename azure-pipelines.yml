@@ -44,4 +44,4 @@ steps:
     azureSubscription: 'Azure subscription 1(0fd04083-24a0-4eea-91f9-e73aa816001e)'
     appType: 'webApp'
     WebAppName: 'zyera12122023'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
